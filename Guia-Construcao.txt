@@ -1,0 +1,17 @@
+Primeira parte da instalação das dependências:
+
+*** npm init -y *** -> Criar o projeto e a pasta node-modules
+
+*** npm i --save -E body-parser@1.15.2 *** -> Faz a conversão do body da requisição de strings para objetos do javascript
+
+*** npm i --save -E express@4.14.0 *** -> Framework node.js
+
+*** npm i --save -E mongoose@4.7.0 *** -> faz o mapeamento com o banco de dados
+
+*** npm i --save -E node-restful@0.2.5 *** -> Simplifica a construção da API
+
+*** npm i --save -E pm2@2.1.5 *** -> launcher responsável por iniciar a aplicação node
+
+Segunda parte da instalação das dependências:
+
+npm i --save-dev -E nodemon@1.11.0 -> dependência de desenvolvimento.

@@ -1,0 +1,13 @@
+loader é o arquivo que vai carregar os principais arquivos de configuração
+o arquivo server é relativo à construção do servidor
+
+1º define-se uma porta
+2º chama as dependencias bodyParser e o servidor express, iniciando ele na constante server
+3º chama define os middlewares:
+    bodyParser.urlenconded -> os dados ao serem recebidos entram como objetos javascript (JSON)
+    mesma coisa com o bodyParser.json()
+
+para rodar, executar ```npm run dev``` ou npm run production
+
+instalar e configurar o mongodb
+
